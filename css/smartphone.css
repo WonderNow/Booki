@@ -1,0 +1,210 @@
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Header LOGO */
+
+header p {
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+.logo_booki {
+  margin: 0;
+}
+
+/* Header NAV BAR */
+
+  nav {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 0;
+  }
+
+  nav a {
+    margin: 0;
+    width: 50%;
+    border-bottom: 3px solid var(--grey-main);
+  }
+
+  nav a:hover,
+  nav a:focus {
+    border-top: 0px solid var(--white-main);
+    border-bottom: 3px solid var(--blue-main);
+  }
+
+  .rechercher {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  /* BLOCK PAGE */
+
+.block_page {
+  width: 100%;
+}
+
+  /* Main BARRE DE RECHERCHE */
+
+.bouton_recherche /* Pour retirer le bouton desktop */ {
+  width: 52px;
+  height: 50px;
+  background-color: transparent;
+  color: transparent;
+  transition: none;
+}
+
+.bouton_recherche_loupe /* Remplacement bouton desktop */ {
+  width: 52px;
+  height: 50px;
+  min-width: 20px;
+  border-radius: 0 40% 40% 0;
+  background-color: var(--blue-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3px;
+}
+
+.fa-search {
+  position: absolute; /* Pour que la loupe soit au 1er plan */
+  pointer-events: none; /* Pour que la loupe ne dérange pas le clic */
+  color: var(--white-main);
+}
+
+/* FILTRES */
+
+.filtres {
+  margin-top: 2px;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+/* INFO */
+
+.info {
+  padding-left: 3%;
+  padding-right: 2%;
+}
+
+/* Hébergements à Marseille */
+
+.hebergements_marseille {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 1.5% 3% 1% 3%;
+}
+
+/* Propriétés générales hébergements (2 rangs) */
+
+.grille_cartes_hebergements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box_hebergement_individuel {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.nom_hebergements {
+  margin: 0 3% 4px 5%;
+}
+
+.prix {
+  margin: 0 3% 6px 5%;
+}
+
+.etoiles_hebergements {
+  margin: 0 3% 15px 5%;
+}
+
+/* Les plus populaires */
+
+.populaires_marseille {
+  border-radius: 0;
+  padding: 4% 3% 0 3%;
+}
+
+.grille_cartes_populaires {
+  display: flex;
+  flex-direction: column;
+}
+
+.box_hebergement_populaire {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+/* Section Activités */
+
+#activites {
+  margin: 39px 1% 0 1%;
+}
+
+.titres_categories {
+  padding-left: 2%;
+}
+
+.bloc_activites {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 25px;
+}
+
+.bloc_activites figcaption {
+  padding: 0 3% 5px 3%;
+}
+
+.colonne {
+  width: 100%;
+}
+
+.box_activite {
+  margin: 0 2% 25px 2%;
+}
+
+.figure_port img {
+  height: 135px;
+}
+
+.figure_pomegues img {
+  height: 135px;
+}
+
+.figure_frioul img {
+  height: 135px;
+}
+
+.figure_calanques img {
+  height: 135px;
+}
+
+.figure_notre_dame img {
+  height: 135px;
+}
+
+.figure_longchamp img {
+  height: 135px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 40px;
+  padding: 35px 4% 15px 4%;
+  flex-direction: column;
+}
+
+.box_footer {
+  margin-bottom: 20px;
+}

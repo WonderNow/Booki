@@ -1,0 +1,62 @@
+/* BLOCK PAGE */
+
+.block_page {
+  width: 95%;
+}
+
+/* FILTRES */
+
+.filtres {
+    margin-top: 2px;
+  }
+
+  /* Section 2 "Hébergements à Marseille" & "Les plus populaires */
+
+#hebergements {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+}
+
+/* Hébergements à Marseille */
+
+.hebergements_marseille {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: var(--grey-main);
+  border-radius: 30px;
+  padding: 1.5% 2% 1% 2%;
+}
+
+/* Les plus populaires */
+.populaires_marseille {
+  width: 100%;
+  height: auto;
+  background-color: var(--grey-main);
+  border-radius: 30px;
+  padding: 1.5% 2.5% 1% 2.5%;
+  margin-bottom: 35px;
+}
+
+.grille_cartes_populaires {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_hebergement_populaire {
+  width: 32%;
+}
+
+/* Footer */
+
+footer {
+  padding: 2% 10% 2% 4.5%;
+}
+
+.box_footer {
+  flex-basis: auto;
+}
